@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postuler - Web4All</title>
+  <meta name="description" content="Page de candidature à une offre de stage et alternance.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h2>Web4All</h2>
+      <nav>
+        <a href="postuler.html">Postuler</a>
+        <a href="mention_leg.html">Mentions légales</a>
+        <a href="cookies.html">Cookies</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Postuler à une offre</h1>
+
+    <div class="two-columns">
+      <section class="section">
+        <h2>Offre : Stage en développement Web</h2>
+         <p><strong>Entreprise:</strong> Amadeus</p>
+        <p><strong>Localisation : </strong>485 Rte du Pin Montard, 06410 Biot </p>
+        <p><strong>Type :</strong> Stage</p>
+        <p>
+          <p><strong>Mission:</strong></p>Création d’un site d’offres de stages et alternances.
+          Travail sur HTML/CSS 
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Formulaire de candidature</h2>
+
+        <form action="#" method="post">
+          <label for="prenom">Prénom </label>
+          <input type="text" id="prenom" name="prenom" required>
+
+          <label for="nom">Nom </label>
+          <input type="text" id="nom" name="nom" required>
+
+          <label for="email">Email </label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="tel">Téléphone</label>
+          <input type="tel" id="tel" name="tel">
+
+          <label for="profil">Profil</label>
+          <select id="profil" name="profil">
+            <option value="stage">Stage</option>
+            <option value="Alternance">Alternance</option>
+          </select>
+
+          <label for="message">Message </label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Envoyer</button>
+          
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <a href="mention_leg.html">Mentions légales</a> |
+        <a href="cookies.html">Cookies</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

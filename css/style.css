@@ -1,0 +1,78 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header + menu */
+header {
+  background: #f2f2f2;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(232, 12, 12);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Titres */
+h1 {
+  margin-top: 0;
+}
+
+/* Sections */
+.section {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* Formulaire */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #f2f2f2;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/* Responsive simple */
+@media (min-width: 700px) {
+  .two-columns {
+    display: flex;
+    gap: 15px;
+  }
+
+  .two-columns .section {
+    width: 50%;
+  }
+}
